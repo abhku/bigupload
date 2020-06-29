@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 	<script src="BigUpload.js"></script>
+</head>
+<html>
+	<body>
+		<form id="upload_form" action="/upload" method="post">
+		    <label for="file_input">Select Files:</label>
+		    <input id="file_input" type="file" multiple>
+		    <div>
+			<input id="submit_btn" type="submit" value="Upload" disabled>
+		    </div>
+		</form>
+		<ul id="file_list" style="display: none;">
+		    <!-- File data will be listed here -->
+		</ul>
+	</body>
+</html>
